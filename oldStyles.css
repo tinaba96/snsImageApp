@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400&display=swap');
+
+body {
+    background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.text {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 42px;
+    background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-align: center;
+    margin: 20px;
+    letter-spacing: 2
+
