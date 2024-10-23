@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400&family=Montserrat:wght@400&display=swap');
-
 body {
-    background-image: url('flower.jpg');
+    background-image: url('HBD.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -9,33 +7,26 @@ body {
     height: 100vh;
     margin: 0;
     display: flex;
-    justify-content: center;
-    align-items: flex-end; /* 下に揃える */
+    justify-content: flex-end; /* 右端に寄せる */
+    align-items: flex-end; /* 下端に寄せる */
 }
 
 .container {
-    position: absolute; /* 絶対位置に設定 */
-    bottom: 20px; /* 下からの位置 */
-    left: 20%; /* 左からの位置 */
-    padding: 2px; /* 内側の余白を少し追加 */
-    background-color: rgba(255, 255, 255, 0.3); /* 控えめな背景 */
-    border: 1px solid rgba(0, 0, 0, 0.1); /* 枠線を控えめに */
-    border-radius: 4px; /* 角を丸める */
-    box-shadow: none; /* 影を削除 */
-    display: flex; /* Flexboxを使って中央揃え */
-    justify-content: center; /* 中央揃え */
-    align-items: center; /* 中央揃え */
+    position: relative; /* 相対位置に設定 */
+    margin: 20px; /* 端からのマージン */
 }
 
 .text {
     font-family: 'Lora', serif;
-    font-weight: 700; /* フォントを太くする */
-    font-size: 16px; /* フォントサイズを12pxに設定 */
-    letter-spacing: 0; /* スペーシングを削除 */
-    color: #ffffff; /* 明るい文字色に設定 */
+    font-weight: 400;
+    font-size: 24px; /* フォントサイズを大きく設定 */
+    letter-spacing: 1px; /* スペーシングを少し追加 */
+    color: #ffffff; /* 明るい文字色 */
     margin: 0; /* マージンをゼロに */
-    padding: 0; /* 内側の余白を削除 */
+    padding: 10px; /* 内側の余白を追加 */
     text-align: center; /* 中央揃え */
-    line-height: 1; /* 行間を狭く */
+    line-height: 1.5; /* 行間を少し広げる */
+    transform: rotate(-5deg); /* テキストを少し傾ける */
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7); /* 影を追加して見やすく */
 }
 
