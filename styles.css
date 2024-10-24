@@ -1,5 +1,5 @@
 body {
-    background-image: url('HBD.jpg');
+    background-image: url('PC_MBS.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -8,7 +8,7 @@ body {
     margin: 0;
     display: flex;
     justify-content: flex-end; /* 右端に寄せる */
-    align-items: flex-end; /* 下端に寄せる */
+    align-items: flex-start; /* 上端に寄せる */
 }
 
 .container {
@@ -26,7 +26,7 @@ body {
     padding: 10px; /* 内側の余白を追加 */
     text-align: center; /* 中央揃え */
     line-height: 1.5; /* 行間を少し広げる */
-    transform: rotate(-5deg); /* テキストを少し傾ける */
-    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7); /* 影を追加して見やすく */
+    transform: rotate(-15deg); /* テキストを大きく傾ける */
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); /* 影を追加して見やすく */
 }
 
