@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400&family=Montserrat:wght@400&display=swap');
+
+body {
+    background-image: url('glass.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* 必要に応じて変更 */
+}
+
+.container {
+    position: absolute; /* 絶対位置に設定 */
+    top: 30%; /* 上からの位置 */
+    left: 20%; /* 左からの位置 */
+    max-width: 150px; /* 最大幅をさらに小さく */
+    width: 80%;
+    padding: 0; /* 内側の余白を削除 */
+    background-color: rgba(255, 255, 255, 0.3); /* 控えめな背景 */
+    border: 1px solid rgba(0, 0, 0, 0.2); /* 枠線を追加 */
+    border-radius: 4px; /* 角をさらに丸める */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* 影を控えめに */
+}
+
+.text {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 8px; /* フォントサイズを8pxに設定 */
+    letter-spacing: 0.2px; /* スペーシング */
+    color: #555;
+    margin: 0; /* マージンをゼロに */
+    padding: 0; /* 内側の余白を削除 */
+    text-align: center; /* 中央揃え */
+}
+
