@@ -3,9 +3,6 @@ body, html {
     height: 100%;               /* 画面全体の高さを占める */
     margin: 0;                  /* マージンをリセット */
     padding: 0;                 /* パディングをリセット */
-    display: flex;
-    justify-content: center;    /* 横中央に配置 */
-    align-items: center;        /* 縦中央に配置 */
     font-family: Arial, sans-serif; /* フォント */
 }
 
@@ -25,10 +22,10 @@ body, html {
 
 /* 絵文字のスタイル */
 .emoji {
-    font-size: 5rem;   /* 絵文字を小さめに設定 */
+    font-size: 2rem;   /* 絵文字をさらに小さく設定 */
     color: #ffcc00;    /* 絵文字の色（晴れのイメージ） */
     position: absolute; /* 絵文字の位置を絶対指定 */
-    left: 40%; /* 左寄りに配置 */
+    left: 40%; /* 中央より少し左寄り */
     transform: translateX(-50%); /* 中央寄せにする */
     bottom: 20px; /* 下部から少し余裕を持たせる */
 }
